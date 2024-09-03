@@ -1,15 +1,15 @@
 #include <iostream>
 
 using namespace std;
-int sum_from_to(int first, int last) {
+int sum_from_to(int first, int last) {//my function
     return (last - first + 1) * (first + last) / 2;
 }
 
 int main() {
-    int first, last;
+    int first, last;//declaration of variable first and last
 
-    std::cout << "Enter the first integer: ";
-    std::cin >> first;
+    std::cout << "Enter the first integer: ";//my ouput
+    std::cin >> first;//scanne first
 
     std::cout << "Enter the last integer: ";
     std::cin >> last;
